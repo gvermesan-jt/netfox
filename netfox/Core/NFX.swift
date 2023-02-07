@@ -77,7 +77,6 @@ open class NFX: NSObject {
         }
 
         started = true
-        URLSessionConfiguration.implementNetfox()
         register()
         enable()
         fileStorageInit()

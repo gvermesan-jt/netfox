@@ -417,7 +417,7 @@ extension String {
 @objc extension URLSessionConfiguration {
     private static var firstOccurrence = true
     
-    static func implementNetfox() {
+    public static func implementNetfox() {
         guard firstOccurrence else { return }
         firstOccurrence = false
 
